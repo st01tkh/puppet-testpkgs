@@ -1,0 +1,8 @@
+testpkgs::packages:
+    nginx:
+        ensure: installed
+        provider: brew
+    neovim:
+        ensure: installed
+        provider: brew
+
